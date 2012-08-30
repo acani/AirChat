@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2C5A3F415EEEA4F004212B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F315EEEA4F004212B6 /* UIKit.framework */; };
+		D2C5A3F615EEEA4F004212B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F515EEEA4F004212B6 /* Foundation.framework */; };
+		D2C5A3F815EEEA4F004212B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F715EEEA4F004212B6 /* CoreGraphics.framework */; };
+		D2C5A3FA15EEEA4F004212B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F915EEEA4F004212B6 /* CoreData.framework */; };
+		D2C5A40215EEEA4F004212B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A40115EEEA4F004212B6 /* main.m */; };
+		D2C5A40615EEEA4F004212B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A40515EEEA4F004212B6 /* AppDelegate.m */; };
+		D2C5A40915EEEA4F004212B6 /* AirChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A40715EEEA4F004212B6 /* AirChat.xcdatamodeld */; };
+		D2C5A41D15EEEA4F004212B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A41C15EEEA4F004212B6 /* SenTestingKit.framework */; };
+		D2C5A41E15EEEA4F004212B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F315EEEA4F004212B6 /* UIKit.framework */; };
+		D2C5A41F15EEEA4F004212B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F515EEEA4F004212B6 /* Foundation.framework */; };
+		D2C5A42015EEEA4F004212B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F915EEEA4F004212B6 /* CoreData.framework */; };
+		D2C5A42B15EEEA4F004212B6 /* AirChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A42A15EEEA4F004212B6 /* AirChatTests.m */; };
+		D2C5A44A15EEF25D004212B6 /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A44915EEF25D004212B6 /* UsersTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C5A42115EEEA4F004212B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C5A3E615EEEA4F004212B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C5A3EE15EEEA4F004212B6;
+			remoteInfo = AirChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2C5A3EF15EEEA4F004212B6 /* AirChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C5A3F315EEEA4F004212B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2C5A3F515EEEA4F004212B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2C5A3F715EEEA4F004212B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2C5A3F915EEEA4F004212B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2C5A3FD15EEEA4F004212B6 /* AirChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirChat-Info.plist"; sourceTree = "<group>"; };
+		D2C5A40115EEEA4F004212B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C5A40315EEEA4F004212B6 /* AirChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirChat-Prefix.pch"; sourceTree = "<group>"; };
+		D2C5A40415EEEA4F004212B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2C5A40515EEEA4F004212B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2C5A40815EEEA4F004212B6 /* AirChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirChat.xcdatamodel; sourceTree = "<group>"; };
+		D2C5A41B15EEEA4F004212B6 /* AirChatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirChatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C5A41C15EEEA4F004212B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2C5A42515EEEA4F004212B6 /* AirChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirChatTests-Info.plist"; sourceTree = "<group>"; };
+		D2C5A42A15EEEA4F004212B6 /* AirChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirChatTests.m; sourceTree = "<group>"; };
+		D2C5A44815EEF25D004212B6 /* UsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewController.h; sourceTree = "<group>"; };
+		D2C5A44915EEF25D004212B6 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C5A3EC15EEEA4F004212B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C5A3F415EEEA4F004212B6 /* UIKit.framework in Frameworks */,
+				D2C5A3F615EEEA4F004212B6 /* Foundation.framework in Frameworks */,
+				D2C5A3F815EEEA4F004212B6 /* CoreGraphics.framework in Frameworks */,
+				D2C5A3FA15EEEA4F004212B6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C5A41715EEEA4F004212B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C5A41D15EEEA4F004212B6 /* SenTestingKit.framework in Frameworks */,
+				D2C5A41E15EEEA4F004212B6 /* UIKit.framework in Frameworks */,
+				D2C5A41F15EEEA4F004212B6 /* Foundation.framework in Frameworks */,
+				D2C5A42015EEEA4F004212B6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2C5A3E415EEEA4F004212B6 = {
+			isa = PBXGroup;
+			children = (
+				D2C5A3FB15EEEA4F004212B6 /* AirChat */,
+				D2C5A42315EEEA4F004212B6 /* AirChatTests */,
+				D2C5A3F215EEEA4F004212B6 /* Frameworks */,
+				D2C5A3F015EEEA4F004212B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C5A3F015EEEA4F004212B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A3EF15EEEA4F004212B6 /* AirChat.app */,
+				D2C5A41B15EEEA4F004212B6 /* AirChatTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C5A3F215EEEA4F004212B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A3F315EEEA4F004212B6 /* UIKit.framework */,
+				D2C5A3F515EEEA4F004212B6 /* Foundation.framework */,
+				D2C5A3F715EEEA4F004212B6 /* CoreGraphics.framework */,
+				D2C5A3F915EEEA4F004212B6 /* CoreData.framework */,
+				D2C5A41C15EEEA4F004212B6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C5A3FB15EEEA4F004212B6 /* AirChat */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A40415EEEA4F004212B6 /* AppDelegate.h */,
+				D2C5A40515EEEA4F004212B6 /* AppDelegate.m */,
+				D2C5A44615EEF207004212B6 /* Controllers */,
+				D2C5A44715EEF20D004212B6 /* Models */,
+				D2C5A3FC15EEEA4F004212B6 /* Supporting Files */,
+			);
+			path = AirChat;
+			sourceTree = "<group>";
+		};
+		D2C5A3FC15EEEA4F004212B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A3FD15EEEA4F004212B6 /* AirChat-Info.plist */,
+				D2C5A40115EEEA4F004212B6 /* main.m */,
+				D2C5A40315EEEA4F004212B6 /* AirChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2C5A42315EEEA4F004212B6 /* AirChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A42A15EEEA4F004212B6 /* AirChatTests.m */,
+				D2C5A42415EEEA4F004212B6 /* Supporting Files */,
+			);
+			path = AirChatTests;
+			sourceTree = "<group>";
+		};
+		D2C5A42415EEEA4F004212B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A42515EEEA4F004212B6 /* AirChatTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2C5A44615EEF207004212B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A44815EEF25D004212B6 /* UsersTableViewController.h */,
+				D2C5A44915EEF25D004212B6 /* UsersTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D2C5A44715EEF20D004212B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2C5A40715EEEA4F004212B6 /* AirChat.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2C5A3EE15EEEA4F004212B6 /* AirChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C5A42E15EEEA4F004212B6 /* Build configuration list for PBXNativeTarget "AirChat" */;
+			buildPhases = (
+				D2C5A3EB15EEEA4F004212B6 /* Sources */,
+				D2C5A3EC15EEEA4F004212B6 /* Frameworks */,
+				D2C5A3ED15EEEA4F004212B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirChat;
+			productName = AirChat;
+			productReference = D2C5A3EF15EEEA4F004212B6 /* AirChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C5A41A15EEEA4F004212B6 /* AirChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C5A43115EEEA4F004212B6 /* Build configuration list for PBXNativeTarget "AirChatTests" */;
+			buildPhases = (
+				D2C5A41615EEEA4F004212B6 /* Sources */,
+				D2C5A41715EEEA4F004212B6 /* Frameworks */,
+				D2C5A41815EEEA4F004212B6 /* Resources */,
+				D2C5A41915EEEA4F004212B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C5A42215EEEA4F004212B6 /* PBXTargetDependency */,
+			);
+			name = AirChatTests;
+			productName = AirChatTests;
+			productReference = D2C5A41B15EEEA4F004212B6 /* AirChatTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C5A3E615EEEA4F004212B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Acani;
+			};
+			buildConfigurationList = D2C5A3E915EEEA4F004212B6 /* Build configuration list for PBXProject "AirChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2C5A3E415EEEA4F004212B6;
+			productRefGroup = D2C5A3F015EEEA4F004212B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C5A3EE15EEEA4F004212B6 /* AirChat */,
+				D2C5A41A15EEEA4F004212B6 /* AirChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2C5A3ED15EEEA4F004212B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C5A41815EEEA4F004212B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2C5A41915EEEA4F004212B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2C5A3EB15EEEA4F004212B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C5A40215EEEA4F004212B6 /* main.m in Sources */,
+				D2C5A40615EEEA4F004212B6 /* AppDelegate.m in Sources */,
+				D2C5A40915EEEA4F004212B6 /* AirChat.xcdatamodeld in Sources */,
+				D2C5A44A15EEF25D004212B6 /* UsersTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C5A41615EEEA4F004212B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C5A42B15EEEA4F004212B6 /* AirChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C5A42215EEEA4F004212B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C5A3EE15EEEA4F004212B6 /* AirChat */;
+			targetProxy = D2C5A42115EEEA4F004212B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2C5A42C15EEEA4F004212B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2C5A42D15EEEA4F004212B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2C5A42F15EEEA4F004212B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChat/AirChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2C5A43015EEEA4F004212B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChat/AirChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2C5A43215EEEA4F004212B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirChat.app/AirChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChatTests/AirChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D2C5A43315EEEA4F004212B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirChat.app/AirChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChatTests/AirChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2C5A3E915EEEA4F004212B6 /* Build configuration list for PBXProject "AirChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C5A42C15EEEA4F004212B6 /* Debug */,
+				D2C5A42D15EEEA4F004212B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C5A42E15EEEA4F004212B6 /* Build configuration list for PBXNativeTarget "AirChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C5A42F15EEEA4F004212B6 /* Debug */,
+				D2C5A43015EEEA4F004212B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2C5A43115EEEA4F004212B6 /* Build configuration list for PBXNativeTarget "AirChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C5A43215EEEA4F004212B6 /* Debug */,
+				D2C5A43315EEEA4F004212B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2C5A40715EEEA4F004212B6 /* AirChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2C5A40815EEEA4F004212B6 /* AirChat.xcdatamodel */,
+			);
+			currentVersion = D2C5A40815EEEA4F004212B6 /* AirChat.xcdatamodel */;
+			path = AirChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2C5A3E615EEEA4F004212B6 /* Project object */;
+}
