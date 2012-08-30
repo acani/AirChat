@@ -20,7 +20,7 @@
 //    [_managedObjectContext setPersistentStoreCoordinator:persistentStoreCoordinator];
 
     // Set up _window > UINavigationController > _usersTableViewController.
-    _usersTableViewController = [[UsersTableViewController alloc] initWithNibName:nil bundle:nil];
+    _usersTableViewController = [[UsersTableViewController alloc] initWithStyle:UITableViewStylePlain];
 //    usersTableViewController.managedObjectContext = _managedObjectContext;
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:_usersTableViewController];
@@ -31,6 +31,7 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Cancel any Bonjour-related services.
 //    UsersTableViewController *usersTableViewController = USERS_TABLE_VIEW_CONTROLLER();
+    [_usersTableViewController.netService stop];
     [_usersTableViewController.netServiceBrowser stop];
     [_usersTableViewController.services removeAllObjects];
 }

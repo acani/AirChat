@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D202797715F01AB800238202 /* DNSSDRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = D202797215F01AB800238202 /* DNSSDRegistration.m */; };
+		D202797815F01AB800238202 /* DNSSDBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D202797415F01AB800238202 /* DNSSDBrowser.m */; };
+		D202797915F01AB800238202 /* DNSSDService.m in Sources */ = {isa = PBXBuildFile; fileRef = D202797615F01AB800238202 /* DNSSDService.m */; };
 		D2C5A3F415EEEA4F004212B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F315EEEA4F004212B6 /* UIKit.framework */; };
 		D2C5A3F615EEEA4F004212B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F515EEEA4F004212B6 /* Foundation.framework */; };
 		D2C5A3F815EEEA4F004212B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F715EEEA4F004212B6 /* CoreGraphics.framework */; };
@@ -32,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D202797115F01AB800238202 /* DNSSDRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDRegistration.h; sourceTree = "<group>"; };
+		D202797215F01AB800238202 /* DNSSDRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDRegistration.m; sourceTree = "<group>"; };
+		D202797315F01AB800238202 /* DNSSDBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDBrowser.h; sourceTree = "<group>"; };
+		D202797415F01AB800238202 /* DNSSDBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDBrowser.m; sourceTree = "<group>"; };
+		D202797515F01AB800238202 /* DNSSDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDService.h; sourceTree = "<group>"; };
+		D202797615F01AB800238202 /* DNSSDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDService.m; sourceTree = "<group>"; };
 		D2C5A3EF15EEEA4F004212B6 /* AirChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C5A3F315EEEA4F004212B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2C5A3F515EEEA4F004212B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D202797015F0178600238202 /* DNSSDObjects */ = {
+			isa = PBXGroup;
+			children = (
+				D202797115F01AB800238202 /* DNSSDRegistration.h */,
+				D202797215F01AB800238202 /* DNSSDRegistration.m */,
+				D202797315F01AB800238202 /* DNSSDBrowser.h */,
+				D202797415F01AB800238202 /* DNSSDBrowser.m */,
+				D202797515F01AB800238202 /* DNSSDService.h */,
+				D202797615F01AB800238202 /* DNSSDService.m */,
+			);
+			name = DNSSDObjects;
+			sourceTree = "<group>";
+		};
 		D2C5A3E415EEEA4F004212B6 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +133,7 @@
 		D2C5A3FB15EEEA4F004212B6 /* AirChat */ = {
 			isa = PBXGroup;
 			children = (
+				D202797015F0178600238202 /* DNSSDObjects */,
 				D2C5A40415EEEA4F004212B6 /* AppDelegate.h */,
 				D2C5A40515EEEA4F004212B6 /* AppDelegate.m */,
 				D2C5A44615EEF207004212B6 /* Controllers */,
@@ -271,6 +294,9 @@
 				D2C5A40215EEEA4F004212B6 /* main.m in Sources */,
 				D2C5A40615EEEA4F004212B6 /* AppDelegate.m in Sources */,
 				D2C5A44A15EEF25D004212B6 /* UsersTableViewController.m in Sources */,
+				D202797715F01AB800238202 /* DNSSDRegistration.m in Sources */,
+				D202797815F01AB800238202 /* DNSSDBrowser.m in Sources */,
+				D202797915F01AB800238202 /* DNSSDService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +340,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -333,7 +359,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -415,6 +441,7 @@
 				D2C5A43015EEEA4F004212B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C5A43115EEEA4F004212B6 /* Build configuration list for PBXNativeTarget "AirChatTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +450,7 @@
 				D2C5A43315EEEA4F004212B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
