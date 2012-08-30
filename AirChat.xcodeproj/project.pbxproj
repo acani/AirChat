@@ -13,7 +13,6 @@
 		D2C5A3FA15EEEA4F004212B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F915EEEA4F004212B6 /* CoreData.framework */; };
 		D2C5A40215EEEA4F004212B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A40115EEEA4F004212B6 /* main.m */; };
 		D2C5A40615EEEA4F004212B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A40515EEEA4F004212B6 /* AppDelegate.m */; };
-		D2C5A40915EEEA4F004212B6 /* AirChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A40715EEEA4F004212B6 /* AirChat.xcdatamodeld */; };
 		D2C5A41D15EEEA4F004212B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A41C15EEEA4F004212B6 /* SenTestingKit.framework */; };
 		D2C5A41E15EEEA4F004212B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F315EEEA4F004212B6 /* UIKit.framework */; };
 		D2C5A41F15EEEA4F004212B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F515EEEA4F004212B6 /* Foundation.framework */; };
@@ -271,7 +270,6 @@
 			files = (
 				D2C5A40215EEEA4F004212B6 /* main.m in Sources */,
 				D2C5A40615EEEA4F004212B6 /* AppDelegate.m in Sources */,
-				D2C5A40915EEEA4F004212B6 /* AirChat.xcdatamodeld in Sources */,
 				D2C5A44A15EEF25D004212B6 /* UsersTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

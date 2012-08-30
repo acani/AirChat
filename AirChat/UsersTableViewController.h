@@ -4,6 +4,6 @@
 
 @property (strong, nonatomic) NSMutableArray *services;
 
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+//@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
