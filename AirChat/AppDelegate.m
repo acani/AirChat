@@ -1,6 +1,12 @@
 #import "AppDelegate.h"
 #import "UsersTableViewController.h"
 
+//#define NAVIGATION_CONTROLLER() \
+//((UINavigationController *)_window.rootViewController)
+//
+//#define USERS_TABLE_VIEW_CONTROLLER() \
+//((UsersTableViewController *)[NAVIGATION_CONTROLLER().viewControllers objectAtIndex:0])
+
 @implementation AppDelegate // {
 //    NSManagedObjectContext *_managedObjectContext;
 // }
@@ -13,13 +19,20 @@
 //    _managedObjectContext = [[NSManagedObjectContext alloc] init];
 //    [_managedObjectContext setPersistentStoreCoordinator:persistentStoreCoordinator];
 
-    // Set up _window > UINavigationController > UsersTableViewController.
-    UsersTableViewController *usersTableViewController = [[UsersTableViewController alloc] initWithNibName:nil bundle:nil];
+    // Set up _window > UINavigationController > _usersTableViewController.
+    _usersTableViewController = [[UsersTableViewController alloc] initWithNibName:nil bundle:nil];
 //    usersTableViewController.managedObjectContext = _managedObjectContext;
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:usersTableViewController];
+    _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:_usersTableViewController];
     [_window makeKeyAndVisible];
     return YES;
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    // Cancel any Bonjour-related services.
+//    UsersTableViewController *usersTableViewController = USERS_TABLE_VIEW_CONTROLLER();
+    [_usersTableViewController.netServiceBrowser stop];
+    [_usersTableViewController.services removeAllObjects];
 }
 
 //- (void)applicationWillTerminate:(UIApplication *)application {

@@ -44,9 +44,9 @@
 #pragma mark - NSNetServiceBrowserDelegate
 
 - (void)searchForNetworkServices {
-    NSNetServiceBrowser *netServiceBrowser = [[NSNetServiceBrowser alloc] init];
-	netServiceBrowser.delegate = self;
-	[netServiceBrowser searchForServicesOfType:@"_airchat._tcp." inDomain:@""];
+    _netServiceBrowser = [[NSNetServiceBrowser alloc] init];
+	_netServiceBrowser.delegate = self;
+	[_netServiceBrowser searchForServicesOfType:@"_airchat._tcp." inDomain:@""];
 }
 
 - (void)netServiceBrowser:(NSNetServiceBrowser *)netServiceBrowser didFindService:(NSNetService *)netService moreComing:(BOOL)moreServicesComing {

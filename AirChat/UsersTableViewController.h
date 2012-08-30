@@ -4,6 +4,8 @@
 
 @property (strong, nonatomic) NSMutableArray *services;
 
+@property (strong, nonatomic) NSNetServiceBrowser *netServiceBrowser;
+
 //@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
