@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D202797715F01AB800238202 /* DNSSDRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = D202797215F01AB800238202 /* DNSSDRegistration.m */; };
-		D202797815F01AB800238202 /* DNSSDBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D202797415F01AB800238202 /* DNSSDBrowser.m */; };
-		D202797915F01AB800238202 /* DNSSDService.m in Sources */ = {isa = PBXBuildFile; fileRef = D202797615F01AB800238202 /* DNSSDService.m */; };
+		D202798415F025E400238202 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D202798315F025E400238202 /* GameKit.framework */; };
 		D2C5A3F415EEEA4F004212B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F315EEEA4F004212B6 /* UIKit.framework */; };
 		D2C5A3F615EEEA4F004212B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F515EEEA4F004212B6 /* Foundation.framework */; };
 		D2C5A3F815EEEA4F004212B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F715EEEA4F004212B6 /* CoreGraphics.framework */; };
@@ -21,7 +19,7 @@
 		D2C5A41F15EEEA4F004212B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F515EEEA4F004212B6 /* Foundation.framework */; };
 		D2C5A42015EEEA4F004212B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5A3F915EEEA4F004212B6 /* CoreData.framework */; };
 		D2C5A42B15EEEA4F004212B6 /* AirChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A42A15EEEA4F004212B6 /* AirChatTests.m */; };
-		D2C5A44A15EEF25D004212B6 /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A44915EEF25D004212B6 /* UsersTableViewController.m */; };
+		D2C5A44A15EEF25D004212B6 /* PeersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A44915EEF25D004212B6 /* PeersTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D202797115F01AB800238202 /* DNSSDRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDRegistration.h; sourceTree = "<group>"; };
-		D202797215F01AB800238202 /* DNSSDRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDRegistration.m; sourceTree = "<group>"; };
-		D202797315F01AB800238202 /* DNSSDBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDBrowser.h; sourceTree = "<group>"; };
-		D202797415F01AB800238202 /* DNSSDBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDBrowser.m; sourceTree = "<group>"; };
-		D202797515F01AB800238202 /* DNSSDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDService.h; sourceTree = "<group>"; };
-		D202797615F01AB800238202 /* DNSSDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDService.m; sourceTree = "<group>"; };
+		D202798315F025E400238202 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		D2C5A3EF15EEEA4F004212B6 /* AirChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C5A3F315EEEA4F004212B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2C5A3F515EEEA4F004212B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +49,8 @@
 		D2C5A41C15EEEA4F004212B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2C5A42515EEEA4F004212B6 /* AirChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirChatTests-Info.plist"; sourceTree = "<group>"; };
 		D2C5A42A15EEEA4F004212B6 /* AirChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirChatTests.m; sourceTree = "<group>"; };
-		D2C5A44815EEF25D004212B6 /* UsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewController.h; sourceTree = "<group>"; };
-		D2C5A44915EEF25D004212B6 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
+		D2C5A44815EEF25D004212B6 /* PeersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeersTableViewController.h; sourceTree = "<group>"; };
+		D2C5A44915EEF25D004212B6 /* PeersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +62,7 @@
 				D2C5A3F615EEEA4F004212B6 /* Foundation.framework in Frameworks */,
 				D2C5A3F815EEEA4F004212B6 /* CoreGraphics.framework in Frameworks */,
 				D2C5A3FA15EEEA4F004212B6 /* CoreData.framework in Frameworks */,
+				D202798415F025E400238202 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,19 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D202797015F0178600238202 /* DNSSDObjects */ = {
-			isa = PBXGroup;
-			children = (
-				D202797115F01AB800238202 /* DNSSDRegistration.h */,
-				D202797215F01AB800238202 /* DNSSDRegistration.m */,
-				D202797315F01AB800238202 /* DNSSDBrowser.h */,
-				D202797415F01AB800238202 /* DNSSDBrowser.m */,
-				D202797515F01AB800238202 /* DNSSDService.h */,
-				D202797615F01AB800238202 /* DNSSDService.m */,
-			);
-			name = DNSSDObjects;
-			sourceTree = "<group>";
-		};
 		D2C5A3E415EEEA4F004212B6 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +107,7 @@
 				D2C5A3F715EEEA4F004212B6 /* CoreGraphics.framework */,
 				D2C5A3F915EEEA4F004212B6 /* CoreData.framework */,
 				D2C5A41C15EEEA4F004212B6 /* SenTestingKit.framework */,
+				D202798315F025E400238202 /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,7 +115,6 @@
 		D2C5A3FB15EEEA4F004212B6 /* AirChat */ = {
 			isa = PBXGroup;
 			children = (
-				D202797015F0178600238202 /* DNSSDObjects */,
 				D2C5A40415EEEA4F004212B6 /* AppDelegate.h */,
 				D2C5A40515EEEA4F004212B6 /* AppDelegate.m */,
 				D2C5A44615EEF207004212B6 /* Controllers */,
@@ -173,8 +154,8 @@
 		D2C5A44615EEF207004212B6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D2C5A44815EEF25D004212B6 /* UsersTableViewController.h */,
-				D2C5A44915EEF25D004212B6 /* UsersTableViewController.m */,
+				D2C5A44815EEF25D004212B6 /* PeersTableViewController.h */,
+				D2C5A44915EEF25D004212B6 /* PeersTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -293,10 +274,7 @@
 			files = (
 				D2C5A40215EEEA4F004212B6 /* main.m in Sources */,
 				D2C5A40615EEEA4F004212B6 /* AppDelegate.m in Sources */,
-				D2C5A44A15EEF25D004212B6 /* UsersTableViewController.m in Sources */,
-				D202797715F01AB800238202 /* DNSSDRegistration.m in Sources */,
-				D202797815F01AB800238202 /* DNSSDBrowser.m in Sources */,
-				D202797915F01AB800238202 /* DNSSDService.m in Sources */,
+				D2C5A44A15EEF25D004212B6 /* PeersTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
